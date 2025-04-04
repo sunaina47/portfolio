@@ -9,7 +9,7 @@
     "start": "next start -p 3002",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
