@@ -42,7 +42,7 @@ const Project = () => {
               data-placeholder={!project.image ? "No Image" : ""}
             >
               {project.image && (
-                <img
+                <Image
                   src={project.image}
                   alt={project.name}
                   style={{
@@ -60,7 +60,7 @@ const Project = () => {
               Tools:
               {(project.tools || project.languages)?.map((tool, index) => (
                 <div key={index} className="tool-icon">
-                  <img src={tool.icon} alt={tool.name} />
+                  <Image src={tool.icon} alt={tool.name} />
                 </div>
               ))}
             </div>

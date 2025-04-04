@@ -85,7 +85,7 @@ const Home = () => {
         {particlesInit && <Navbar pageName="Home" />}
         <div className={`greeting`}>
           <Fade direction="up" cascade damping={0.5}>
-            <img
+            <Image
               className="profile"
               alt="m.jigalin profile"
               src="/images/profile.png"
@@ -107,7 +107,7 @@ const Home = () => {
                 deleteSpeed={50}
               />
             </h3>
-            <SocialLinks theme={"light"} />
+            <SocialLinks theme={"Light"} />
           </Fade>
         </div>
       </div>
