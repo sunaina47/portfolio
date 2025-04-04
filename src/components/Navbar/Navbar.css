@@ -1,0 +1,21 @@
+.navbar-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background: transparent;
+  z-index: 1000;
+}
+
+.navbar {
+  background: transparent !important;
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar .ant-menu-item {
+  font-size: 18px;
+  color: white !important;
+}

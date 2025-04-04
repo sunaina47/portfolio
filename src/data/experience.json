@@ -1,0 +1,56 @@
+{
+    "experience": [
+      {
+        "id": 0,
+        "link": "https://www.8secondz.com/",
+        "company": "Smartlink Hoolding Limited",
+        "title": "Intern",
+        "dateFrom": "March 2021",
+        "dateTo": "March 2021",
+        "info": [
+          "Worked on different networking products configuration and testing (Digisol)", 
+          "Also worked with fiber optic cable manufacturing (Telesmart)."
+        ],
+        "stack": ["Networking", "Fiber Optic", "Testing"],
+        "logoheight": 80,
+        "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+        "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+      },
+      {
+        "id": 1,
+        "link": "https://www.psykinetic.com",
+        "company": "Spintly",
+        "title": "Intern",
+        "dateFrom": "April 2023",
+        "dateTo": "April 2023",
+        "info": [
+          "Executed comprehensive test plans and test cases to identify and resolve software/hardware defects.",
+          "Contributed to the improvement of firmware quality by conducting rigorous testing procedures.",
+          "Collaborated with cross-functional teams to analyze requirements and provide valuable insights."
+        ],
+        "stack": ["Testing", "Firmware", "Quality Assurance"],
+        "logowidth": 80,
+        "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
+        "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+      },
+      {
+        "id": 2,
+        "link": "https://www.cactuscan.com",
+        "company": "Goa Electronics Limited",
+        "title": "Software Engineer",
+        "dateFrom": "June 2023",
+        "dateTo": "Current",
+        "info": [
+          "Develop and improve websites for government projects, ensuring a smooth user experience.",
+          "Build important features like user management and other core modules.",
+          "Create and integrate APIs for internal and external systems.",
+          "Work on service development, system improvements, and enterprise solutions."
+        ],
+        "stack": ["React","Next.js", "MySQL", "PostgreSQL", "ASP.NET"],
+        "logowidth": 80,
+        "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
+        "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
+      }
+    ]
+  }
+  

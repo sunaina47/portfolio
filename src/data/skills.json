@@ -1,0 +1,64 @@
+ [
+    {
+      "id": 0,
+      "skillName": "HTML",
+      "icon": "/images/skills/HTML.png"
+    },
+    {
+      "id": 1,
+      "skillName": "CSS",
+      "icon": "/images/skills/CSS.png"
+    },
+    {
+      "id": 2,
+      "skillName": "Javascript",
+      "icon": "/images/skills/Javascript.png"
+    },
+    {
+      "id": 3,
+      "skillName": "Bootstrap",
+      "icon": "/images/skills/Bootstrap.png"
+    },
+    {
+      "id": 4,
+      "skillName": "React Js, Next Js",
+      "icon": "/images/skills/React.png"
+    },
+    {
+      "id": 5,
+      "skillName": "MySQL",
+      "icon": "/images/skills/MYSQL.png"
+    },
+    {
+      "id": 6,
+      "skillName": "PostgreSQL",
+      "icon": "/images/skills/HTML.png"
+    },
+    {
+      "id": 7,
+      "skillName": "ASP.NET, C#",
+      "icon": "/images/skills/ASPNET.png"
+    },
+    {
+      "id": 8,
+      "skillName": "C",
+      "icon": "/images/skills/C.png"
+    },
+    {
+      "id": 9,
+      "skillName": "Python",
+      "icon": "/images/skills/Python.png"
+    },
+    {
+      "id": 10,
+      "skillName": "MATLAB",
+      "icon": "/images/skills/MATLAB.png"
+    },
+    {
+      "id": 11,
+      "skillName": "Wordpress",
+      "icon": "/images/skills/Wordpress.png"
+    }
+  ]
+
+

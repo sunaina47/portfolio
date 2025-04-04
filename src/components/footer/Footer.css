@@ -1,0 +1,12 @@
+.footer {
+  background-color: transparent;
+  padding-bottom: 10px;
+  z-index: 1000;
+
+}
+
+.copyright {
+  text-align: center;
+  color: "#fff";
+  font-size: 14px;
+}

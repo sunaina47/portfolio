@@ -1,0 +1,49 @@
+.about-container {
+  background-image: url("/images/backgroundAbout.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about-card {
+  background-color: #367793 !important;
+  color: white;
+  width: 80%;
+  margin-top: 30px;
+  height: 80%;
+  max-width: 1000px;
+  max-height: 2000px;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.about-text {
+  font-size: 18px;
+  text-align: left;
+}
+
+.about-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive text alignment on smaller screens */
+@media screen and (max-width: 768px) {
+  .about-text {
+    text-align: center;
+  }
+}
