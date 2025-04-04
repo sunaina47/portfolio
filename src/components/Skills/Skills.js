@@ -13,7 +13,7 @@ const Skills = () => {
             <div className="skill-card">
               {skill.icon && (
                 <Image
-                  src={skill.icon}
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}/${skill.icon}`}
                   alt={skill.skillName}
                   className="skill-icon"
                 />

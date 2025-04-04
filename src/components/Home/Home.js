@@ -87,10 +87,10 @@ const Home = () => {
           <Fade direction="up" cascade damping={0.5}>
             <Image
               className="profile"
-              alt="m.jigalin profile"
+              alt="sunaina profile"
               src={`${
                 process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""
-              }/images/SunainaIllustration.jpg`}
+              }/images/profile.jpg`}
             />
             <h1 className="greeting-text">
               Hi, I&apos;m <span className="name">Sunaina Kharangate</span>.
