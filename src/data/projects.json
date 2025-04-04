@@ -45,7 +45,7 @@
     "description": "📝 A task management and productivity web app. Includes drag-and-drop kanban boards, calendar view, and user collaboration features. A task management and productivity web app. Includes drag-and-drop kanban boards, calendar view, and user collaboration features.",
     "tools": [
       { "name": "Next.js", "icon": "/images/skills/React.png" },
-      { "name": "PostgreSQL", "icon": "/images/skills/PostgreSQL.png" }
+      { "name": "PostgreSQL", "icon": "/images/skills/postgreSQL.png" }
     ]
   }
 ]
