@@ -12,7 +12,7 @@ const Skills = () => {
           <Col key={skill.id} xs={8} sm={8} md={6} lg={4} xl={4}>
             <div className="skill-card">
               {skill.icon && (
-                <img
+                <Image
                   src={skill.icon}
                   alt={skill.skillName}
                   className="skill-icon"
