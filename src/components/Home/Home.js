@@ -88,7 +88,9 @@ const Home = () => {
             <Image
               className="profile"
               alt="m.jigalin profile"
-              src="/images/profile.png"
+              src={`${
+                process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""
+              }/images/SunainaIllustration.jpg`}
             />
             <h1 className="greeting-text">
               Hi, I&apos;m <span className="name">Sunaina Kharangate</span>.
