@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import ".styles/Home.css";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { Fade } from "react-awesome-reveal";
@@ -90,7 +90,7 @@ const Home = () => {
               alt="sunaina profile"
               src={`${
                 process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""
-              }/images/profile.jpg`}
+              }/images/profile.png`}
             />
             <h1 className="greeting-text">
               Hi, I&apos;m <span className="name">Sunaina Kharangate</span>.

@@ -43,7 +43,7 @@ const Project = () => {
             >
               {project.image && (
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}/${
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}${
                     project.image
                   }`}
                   alt={project.name}
@@ -63,7 +63,7 @@ const Project = () => {
               {(project.tools || project.languages)?.map((tool, index) => (
                 <div key={index} className="tool-icon">
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}/${
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}${
                       tool.icon
                     }`}
                     alt={tool.name}
