@@ -19,7 +19,7 @@
     "github": "https://github.com/sunaina47/bartini",
     "description": "🍹 A cocktail-making web application. Users can input ingredients and browse cocktails that can be made. Responsible for UI/UX on mobile & web.",
     "languages": [
-      { "name": "JavaScript", "icon": "/images/skills/JavaScript.png" },
+      { "name": "JavaScript", "icon": "/images/skills/Javascript.png" },
       { "name": "HTML", "icon": "/images/skills/HTML.png" },
       { "name": "CSS", "icon": "/images/skills/CSS.png" }
     ]
