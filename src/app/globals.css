@@ -1,6 +1,8 @@
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-font: 'Montserrat', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,12 +16,12 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  font-family: var(--primary-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,6 +37,49 @@ a {
   text-decoration: none;
 }
 
+/* Responsive typography */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    position: relative;
+    padding: 6rem;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    position: relative;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+}
+
+/* Section headings */
+section h1 {
+  text-align: center;
+}
+
+/* Styling for buttons */
+button>span {
+  font-family: var(--primary-font);
+}
+
+/* Main app container */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Apply dark mode color scheme */
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
