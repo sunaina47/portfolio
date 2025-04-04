@@ -1,5 +1,5 @@
 import React from "react";
-import ".styles/Home.css";
+import "./Home.css";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { Fade } from "react-awesome-reveal";
