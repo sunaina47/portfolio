@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "antd";
 import skills from "@/data/skills.json";
 import "./Skills.css";
-
+import Image from "next/image";
 const Skills = () => {
   return (
     <div className="skills-wrapper" id="skills">

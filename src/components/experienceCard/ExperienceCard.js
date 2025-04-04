@@ -1,5 +1,6 @@
 import React from 'react'
 import './ExperienceCard.css'
+import Image from "next/image";
 
 const ExperienceCard = ({ experience }) => {
   let { link, company, title, dateFrom, dateTo, info, stack } = experience
@@ -27,7 +28,7 @@ const ExperienceCard = ({ experience }) => {
                     : experience.colourPrimary,
                 }}
               ></div>
-              <img
+              <Image
                 className="company-logo"
                 src={require(`../../images/logos/${company
                   .replace(/ /g, '')

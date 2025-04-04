@@ -1,5 +1,6 @@
 import React from "react";
 import "./SocialLink.css";
+import Image from "next/image";
 
 const SocialLinks = ({ theme }) => {
   return (

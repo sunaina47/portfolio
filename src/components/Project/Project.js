@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Card } from "antd";
 import projects from "@/data/projects.json";
 import "./Project.css";
-
+import Image from "next/image";
 const Project = () => {
   const scrollRef = useRef(null);
 

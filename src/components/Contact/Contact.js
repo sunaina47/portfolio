@@ -2,7 +2,6 @@ import React from "react";
 import "./Contact.css";
 import { Button, Col, Input, Row, Form } from "antd";
 import SocialLinks from "../SocialLinks/SocialLinks";
-import Footer from "../footer/Footer";
 
 const Contact = () => {
   const [form] = Form.useForm();

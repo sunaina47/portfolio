@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 import { Typewriter } from "react-simple-typewriter";
 import Navbar from "../Navbar/Navbar";
 import SocialLinks from "../SocialLinks/SocialLinks";
-
+import Image from "next/image";
 const Home = () => {
   const particlesInit = async (engine) => {
     await loadSlim(engine);
@@ -91,7 +91,7 @@ const Home = () => {
               src="/images/profile.png"
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Sunaina Kharangate</span>.
+              Hi, I&apos;m <span className="name">Sunaina Kharangate</span>.
             </h1>
             <h3 className="greeting-text">
               <Typewriter
