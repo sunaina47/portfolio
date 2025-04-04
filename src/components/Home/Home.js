@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";

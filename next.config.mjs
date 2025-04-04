@@ -6,6 +6,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  env: {
+    NEXT_PUBLIC_IMAGE_PREFIX: "/portfolio/images",
+    NEXT_PUBLIC_CSS_PREFIX: "/portfolio/styles",
+  },
 };
 
 export default nextConfig;
