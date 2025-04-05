@@ -8,6 +8,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
   env: {
     NEXT_PUBLIC_IMAGE_PREFIX: isProd ? "/portfolio" : "",
     NEXT_PUBLIC_CSS_PREFIX: isProd ? "/portfolio" : "",
