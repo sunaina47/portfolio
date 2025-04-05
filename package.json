@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start -p 3002",
     "lint": "next lint",
-    "predeploy": "npm run build && rm -rf docs && mv out docs && touch docs/.nojekyll",
+    "predeploy": "npm run build && rmdir /s /q docs && move out docs && echo.> docs\\.nojekyll",
     "deploy": "git add . && git commit -m 'Deploy' && git push"
   },
   "dependencies": {
