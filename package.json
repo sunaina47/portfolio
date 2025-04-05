@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start -p 3002",
     "lint": "next lint",
-    "predeploy": "npm run build && rmdir /s /q docs && move out docs && echo.> docs\\.nojekyll",
-    "deploy": "git add . && git commit -m 'Deploy' && git push"
+    "predeploy": "npm run build && if exist docs rmdir /s /q docs && xcopy /E /I /Y out docs && echo.> docs\\.nojekyll"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
