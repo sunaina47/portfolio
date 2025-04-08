@@ -10,18 +10,24 @@ const SocialLinks = ({ theme }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}/images/social/linkedin${theme}.png`} alt="LinkedIn" />
+        <Image
+          src={`/portfolio/images/social/linkedin${theme}.png`}
+          alt="LinkedIn"
+        />
       </a>
       <a
         href="https://github.com/sunaina47"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}/images/social/github${theme}.png`} alt="GitHub" />
+        <Image
+          src={`/portfolio/images/social/github${theme}.png`}
+          alt="GitHub"
+        />
       </a>
 
       <a href="mailto:sunainakharangate7@gmail.com">
-        <Image src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}/images/social/email${theme}.png`} alt="Email" />
+        <Image src={`/portfolio/images/social/email${theme}.png`} alt="Email" />
       </a>
     </div>
   );

@@ -43,9 +43,7 @@ const Project = () => {
             >
               {project.image && (
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}${
-                    project.image
-                  }`}
+                  src={`/portfolio${project.image}`}
                   alt={project.name}
                   style={{
                     width: "100%",
@@ -62,12 +60,7 @@ const Project = () => {
               Tools:
               {(project.tools || project.languages)?.map((tool, index) => (
                 <div key={index} className="tool-icon">
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMAGE_PREFIX || ""}${
-                      tool.icon
-                    }`}
-                    alt={tool.name}
-                  />
+                  <Image src={`/portfolio${tool.icon}`} alt={tool.name} />
                 </div>
               ))}
             </div>
