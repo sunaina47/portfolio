@@ -12,10 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Geist&family=Geist+Mono&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="stylesheet" />
       </head>
       <body>{children}</body>
     </html>
