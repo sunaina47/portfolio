@@ -6,8 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  trailingSlash: true, // important for GitHub Pages
+  trailingSlash: true,
   basePath: "/portfolio",
+  assetPrefix: "/portfolio/",
 };
 
 export default nextConfig;
