@@ -33,7 +33,7 @@ const Contact = () => {
                     marginBottom: "10px",
                   }}
                 >
-                  Get in Touch!
+                  Get in Touch! Hey
                 </h2>
                 <span
                   style={{
