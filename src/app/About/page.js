@@ -3,11 +3,12 @@
 import React from "react";
 import Navbar from "@/components/Navbar/Navbar";
 import "./About.css";
-import { Card, Row, Col } from "antd";
+import { Card, Row, Col, Button } from "antd";
 import Skills from "@/components/Skills/Skills";
 import Project from "@/components/Project/Project";
 import Footer from "@/components/footer/Footer";
 import Image from "next/image";
+import { CloudDownloadOutlined } from "@ant-design/icons";
 
 const index = () => {
   return (

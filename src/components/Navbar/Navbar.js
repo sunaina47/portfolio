@@ -31,6 +31,14 @@ const AboutItems = [
     key: "Projects",
     label: <a href="#projects">Projects</a>,
   },
+  {
+    key: "Resume",
+    label: (
+      <a href="/Sunaina Kharangate Resume.pdf" download>
+        Resume
+      </a>
+    ),
+  },
 ];
 
 const ContactItems = [
