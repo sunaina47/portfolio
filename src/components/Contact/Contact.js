@@ -15,8 +15,9 @@ const Contact = () => {
       <div className="contact">
         <div className="contact_container">
           <Row gutter={[32, 0]} align="middle">
-            <Col span={12} align="middle" style={{ padding: "0px 40px" }}>
+            <Col xs={24} sm={24} md={12} xl={12} align="middle">
               <div
+                className="contact-left-content"
                 style={{
                   backgroundColor: "white",
                   color: "black",
@@ -57,7 +58,7 @@ const Contact = () => {
                 <SocialLinks theme={"Dark"} />
               </div>
             </Col>
-            <Col span={12} align="middle">
+            <Col xs={24} sm={24} md={12} xl={12} align="middle">
               <Form
                 autoComplete="off"
                 layout="vertical"
