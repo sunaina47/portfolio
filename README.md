@@ -22,7 +22,7 @@ Built using **Next.js 15**, **React**, and **Ant Design**, this site showcases m
 ## 🚀 Getting Started
 
 🌍 Live Demo
-🔗 https://sunaina47.github.io/portfolio/
+🔗 https://sunainakharangate-portfolio.vercel.app/
 
 1. Clone the repository:
    ```bash
