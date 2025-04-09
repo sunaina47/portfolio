@@ -11,7 +11,7 @@ const SocialLinks = ({ theme }) => {
         rel="noopener noreferrer"
       >
         <Image
-          src={`/portfolio/images/social/linkedin${theme}.png`}
+          src={`/images/social/linkedin${theme}.png`}
           alt="LinkedIn"
         />
       </a>
@@ -21,13 +21,13 @@ const SocialLinks = ({ theme }) => {
         rel="noopener noreferrer"
       >
         <Image
-          src={`/portfolio/images/social/github${theme}.png`}
+          src={`/images/social/github${theme}.png`}
           alt="GitHub"
         />
       </a>
 
       <a href="mailto:sunainakharangate7@gmail.com">
-        <Image src={`/portfolio/images/social/email${theme}.png`} alt="Email" />
+        <Image src={`/images/social/email${theme}.png`} alt="Email" />
       </a>
     </div>
   );

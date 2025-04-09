@@ -43,7 +43,7 @@ const Project = () => {
             >
               {project.image && (
                 <Image
-                  src={`/portfolio${project.image}`}
+                  src={`${project.image}`}
                   alt={project.name}
                   style={{
                     width: "100%",
@@ -60,7 +60,7 @@ const Project = () => {
               Tools:
               {(project.tools || project.languages)?.map((tool, index) => (
                 <div key={index} className="tool-icon">
-                  <Image src={`/portfolio${tool.icon}`} alt={tool.name} />
+                  <Image src={`${tool.icon}`} alt={tool.name} />
                 </div>
               ))}
             </div>

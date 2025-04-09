@@ -88,7 +88,7 @@ const Home = () => {
             <Image
               className="profile"
               alt="sunaina profile"
-              src={`/portfolio/images/profile.png`}
+              src={`/images/profile.png`}
             />
             <h1 className="greeting-text">
               Hi, I&apos;m <span className="name">Sunaina Kharangate</span>.

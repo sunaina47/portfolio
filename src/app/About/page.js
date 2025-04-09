@@ -31,7 +31,7 @@ const index = () => {
             </Col>
             <Col xs={24} md={12} className="about-img-wrapper">
               <Image
-                src={`/portfolio/images/SunainaIllustration.jpg`}
+                src={`/images/SunainaIllustration.jpg`}
                 alt="Sunaina Kharangate"
                 className="about-img"
               />
