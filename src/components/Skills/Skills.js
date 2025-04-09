@@ -13,9 +13,11 @@ const Skills = () => {
             <div className="skill-card">
               {skill.icon && (
                 <Image
-                  src={`/portfolio${skill.icon}`}
+                  src={`${skill.icon}`}
                   alt={skill.skillName}
                   className="skill-icon"
+                  width={200}
+                  height={200}
                 />
               )}
               <p className="skill-name">{skill.skillName}</p>

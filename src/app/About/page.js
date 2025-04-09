@@ -34,6 +34,8 @@ const index = () => {
                 src={`/images/SunainaIllustration.jpg`}
                 alt="Sunaina Kharangate"
                 className="about-img"
+                width={200}
+                height={200}
               />
             </Col>
           </Row>

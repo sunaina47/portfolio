@@ -13,6 +13,8 @@ const SocialLinks = ({ theme }) => {
         <Image
           src={`/images/social/linkedin${theme}.png`}
           alt="LinkedIn"
+          width={200}
+          height={200}
         />
       </a>
       <a
@@ -23,11 +25,18 @@ const SocialLinks = ({ theme }) => {
         <Image
           src={`/images/social/github${theme}.png`}
           alt="GitHub"
+          width={200}
+          height={200}
         />
       </a>
 
       <a href="mailto:sunainakharangate7@gmail.com">
-        <Image src={`/images/social/email${theme}.png`} alt="Email" />
+        <Image
+          src={`/images/social/email${theme}.png`}
+          alt="Email"
+          width={200}
+          height={200}
+        />
       </a>
     </div>
   );

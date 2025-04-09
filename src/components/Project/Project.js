@@ -51,6 +51,8 @@ const Project = () => {
                     objectFit: "cover",
                     borderRadius: "8px",
                   }}
+                  width={200}
+                  height={200}
                 />
               )}
             </div>
@@ -60,7 +62,12 @@ const Project = () => {
               Tools:
               {(project.tools || project.languages)?.map((tool, index) => (
                 <div key={index} className="tool-icon">
-                  <Image src={`${tool.icon}`} alt={tool.name} />
+                  <Image
+                    src={`${tool.icon}`}
+                    alt={tool.name}
+                    width={200}
+                    height={200}
+                  />
                 </div>
               ))}
             </div>

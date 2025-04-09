@@ -89,6 +89,8 @@ const Home = () => {
               className="profile"
               alt="sunaina profile"
               src={`/images/profile.png`}
+              width={200}
+              height={200}
             />
             <h1 className="greeting-text">
               Hi, I&apos;m <span className="name">Sunaina Kharangate</span>.

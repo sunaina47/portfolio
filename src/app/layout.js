@@ -4,7 +4,7 @@ export const metadata = {
   title: "Sunaina Kharangate",
   description: "Created by Sunaina",
   icons: {
-    icon: "/images/profile.png",
+    // icon: "/images/profile.png",
   },
 };
 
