@@ -1,51 +1,14 @@
 [
   {
     "id": 0,
-    "name": "Cactus",
-    "image": "/images/profile.png",
-    "link": "https://www.cactuscan.com/",
-    "github": "https://github.com/sunaina47/cactus",
-    "description": "🌵 A responsive multi-page website made with wordpress for ease of updating & blog functionality. Used jQuery for custom animations and extension integration.",
+    "name": "Weather Sense",
+    "image": "/images/projects/weatherSense.png",
+    "link": "https://weather-sense-by-sunaina.vercel.app/",
+    "github": "https://github.com/sunaina47/weather-sense",
+    "description": "Weather Sense is a modern weather app offering real-time weather data, clothing suggestions, and lunar phase insights. Designed with a sleek dark/light theme switcher and user-friendly components, it helps users plan their day with personalized recommendations. Features include Current Weather & Forecasts, Clothing Suggestions based on weather conditions, Moon Phases with emojis and visuals, Sunrise & Sunset and Dark/Light Mode toggle. Powered by public APIs (WeatherAPI/OpenMeteo/etc.)",
     "tools": [
-      { "name": "Wordpress", "icon": "/images/skills/Wordpress.png" },
+      { "name": "React", "icon": "/images/skills/React.png" },
       { "name": "CSS", "icon": "/images/skills/CSS.png" }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "Bartini",
-    "image": "/images/projects/bartini.png",
-    "link": "https://www.bartiniapp.com/",
-    "github": "https://github.com/sunaina47/bartini",
-    "description": "🍹 A cocktail-making web application. Users can input ingredients and browse cocktails that can be made. Responsible for UI/UX on mobile & web.",
-    "languages": [
-      { "name": "JavaScript", "icon": "/images/skills/Javascript.png" },
-      { "name": "HTML", "icon": "/images/skills/HTML.png" },
-      { "name": "CSS", "icon": "/images/skills/CSS.png" }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "TravelBuddy",
-    "image": "/images/projects/bartini.png",
-    "link": "https://www.travelbuddyapp.com/",
-    "github": "https://github.com/sunaina47/travelbuddy",
-    "description": "✈️ A travel planner app that allows users to create itineraries, manage bookings, and explore places. Designed the interface using React.js and Ant Design.",
-    "tools": [
-      { "name": "React.js", "icon": "/images/skills/React.png" },
-      { "name": "Bootstrap", "icon": "/images/skills/Bootstrap.png" }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "TaskFlow",
-    "image": "/images/projects/bartini.png",
-    "link": "https://www.taskflow.io/",
-    "github": "https://github.com/sunaina47/taskflow",
-    "description": "📝 A task management and productivity web app. Includes drag-and-drop kanban boards, calendar view, and user collaboration features. A task management and productivity web app. Includes drag-and-drop kanban boards, calendar view, and user collaboration features.",
-    "tools": [
-      { "name": "Next.js", "icon": "/images/skills/React.png" },
-      { "name": "PostgreSQL", "icon": "/images/skills/postgreSQL.png" }
     ]
   }
 ]
