@@ -10,5 +10,17 @@
       { "name": "React", "icon": "/images/skills/React.png" },
       { "name": "CSS", "icon": "/images/skills/CSS.png" }
     ]
+  },
+  {
+    "id": 1,
+    "name": "Pack with Me",
+    "image": "/images/projects/packWithMe.png",
+    "link": "https://pack-with-me.vercel.app/",
+    "github": "https://github.com/sunaina47/pack-w-me",
+    "description": " Pack with Me, is a simple web application designed to help users plan and organize items to pack for trips. It allows users to create packing lists and mark items as packed once they're ready. It's an essential tool for stress-free travel preparation!",
+    "tools": [
+      { "name": "React", "icon": "/images/skills/React.png" },
+      { "name": "CSS", "icon": "/images/skills/CSS.png" }
+    ]
   }
 ]
