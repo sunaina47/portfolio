@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": 1,
     "name": "Weather Sense",
     "image": "/images/projects/weatherSense.png",
     "link": "https://weather-sense-by-sunaina.vercel.app/",
@@ -12,12 +12,24 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Pack with Me",
     "image": "/images/projects/packWithMe.png",
     "link": "https://pack-with-me.vercel.app/",
     "github": "https://github.com/sunaina47/pack-w-me",
-    "description": " Pack with Me, is a simple web application designed to help users plan and organize items to pack for trips. It allows users to create packing lists and mark items as packed once they're ready. It's an essential tool for stress-free travel preparation!",
+    "description": "Pack with Me, is a simple web application designed to help users plan and organize items to pack for trips. It allows users to create packing lists and mark items as packed once they're ready. It's an essential tool for stress-free travel preparation!",
+    "tools": [
+      { "name": "React", "icon": "/images/skills/React.png" },
+      { "name": "CSS", "icon": "/images/skills/CSS.png" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "PopFlix",
+    "image": "/images/projects/popFlix.png",
+    "link": "https://popFlix.vercel.app/",
+    "github": "https://github.com/sunaina47/popflix",
+    "description": "PopFlix is a movie discovery platform inspired by IMDb, where users can search for movies, explore details, and rate them. The app integrates with a third-party movie database API to fetch real-time movie information such as titles, posters, genres, release dates, and ratings. It provides a clean and user-friendly interface for browsing movies",
     "tools": [
       { "name": "React", "icon": "/images/skills/React.png" },
       { "name": "CSS", "icon": "/images/skills/CSS.png" }
