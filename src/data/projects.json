@@ -27,7 +27,7 @@
     "id": 3,
     "name": "PopFlix",
     "image": "/images/projects/popFlix.png",
-    "link": "https://popFlix.vercel.app/",
+    "link": "https://popflix-sun.vercel.app/",
     "github": "https://github.com/sunaina47/popflix",
     "description": "PopFlix is a movie discovery platform inspired by IMDb, where users can search for movies, explore details, and rate them. The app integrates with a third-party movie database API to fetch real-time movie information such as titles, posters, genres, release dates, and ratings. It provides a clean and user-friendly interface for browsing movies",
     "tools": [
